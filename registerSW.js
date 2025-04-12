@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/academic-react-hub-main/sw.js', { scope: '/academic-react-hub-main/' })})}
